@@ -5,7 +5,6 @@
   --default-font-family: "Poppins", sans-serif;
 }
 
-
 h2,
 h3,
 h4,
@@ -15,8 +14,8 @@ h6 {
   font-family: var(--heading-font-family);
   font-weight: bold;
 }
-h1{
-  font-family: 'Changa One', cursive;
+h1 {
+  font-family: "Changa One", cursive;
 }
 h2 {
   font-size: 64px;
@@ -28,18 +27,18 @@ h1 {
   font-size: 96px;
   line-height: 1.5;
 }
-h3{
+h3 {
   font-size: 48px;
 }
 p {
   font-weight: normal;
-  
-  font-size: 16px;
+
+  font-size: 15px;
   line-height: 30px;
 }
 .content p {
   display: block;
-  font-size: 14px;
+  font-size: 13px;
 }
 .hero {
   background-color: var(--secondary-color);
@@ -56,9 +55,8 @@ p {
   font-size: 64px;
   line-height: 80px;
 }
-.content p{
+.content p {
   font-size: 14px;
-  
 }
 .content-container p {
   font-size: 18px;
@@ -68,17 +66,15 @@ p {
   font-size: 18px;
   font-family: var(--default-font-family);
 }
-.content h3{
+.content h3 {
   font-size: 24px;
   line-height: 1.5;
   font-family: var(--default-font-family);
 }
-.logo{
-  
+.logo {
   max-width: 70px;
   max-height: 80;
   padding: 0;
-  
 }
 
 .active {
@@ -86,7 +82,7 @@ p {
 }
 
 .hero h2 {
-  font-family: var(--heading-font-family) ;
+  font-family: var(--heading-font-family);
   font-size: 24px;
   font-weight: normal;
   line-height: 1.5;
@@ -113,8 +109,8 @@ p {
   border: 1px solid var(--branding-color);
   border-radius: 4px;
 }
-.navbar{
-  background-color:#f6fafa !important;
+.navbar {
+  background-color: #f6fafa !important;
 }
 nav {
   padding: 20px 0;
@@ -141,10 +137,10 @@ nav li.active a {
 .project-description {
   padding: 100px 40px;
 }
-.hand{
+.hand {
   font-size: xx-large;
-  
-  padding:160px 90px ;
+
+  padding: 160px 90px;
 }
 @keyframes transform-image {
   0% {
@@ -164,29 +160,28 @@ nav li.active a {
   animation-iteration-count: 2;
 }
 
-
-footer .contact-box{
+footer .contact-box {
   background-color: var(--secondary-color);
   padding: 30px 120px;
   border-radius: 10px;
 }
-footer .contact-box p{
+footer .contact-box p {
   margin: 0;
 }
-footer .email-link{
+footer .email-link {
   text-decoration: none;
   color: black;
   font-size: 24px;
   text-align: center;
   margin-bottom: 60px;
 }
-footer .email-link:hover{
+footer .email-link:hover {
   color: var(--branding-color);
 }
-footer{
+footer {
   margin: 60px 0;
 }
-footer .social-links a{
+footer .social-links a {
   margin: 0 20px;
   color: var(--branding-color);
   background-color: var(--secondary-color);
@@ -195,9 +190,9 @@ footer .social-links a{
   border-radius: 50%;
   transition: all 150ms ease-in-out;
 }
-footer .social-links a:hover{
-color: white;
-background-color: var(--branding-color);
+footer .social-links a:hover {
+  color: white;
+  background-color: var(--branding-color);
 }
 
 @media (max-width: 900px) {
@@ -207,7 +202,7 @@ background-color: var(--branding-color);
   h2 {
     font-size: 42px;
   }
-  
+
   .hero {
     padding: 80px 20px;
   }
@@ -219,5 +214,4 @@ background-color: var(--branding-color);
     text-align: center;
     padding: 0;
   }
- 
 }
