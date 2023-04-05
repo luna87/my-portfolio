@@ -33,9 +33,12 @@ h3{
 }
 p {
   font-weight: normal;
-  font-family: var(--default-font-family);
+  
   font-size: 16px;
   line-height: 30px;
+}
+.content p {
+  font-size: 14px;
 }
 .hero {
   background-color: var(--secondary-color);
